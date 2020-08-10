@@ -222,6 +222,7 @@
             this.btnSelectie.TabIndex = 19;
             this.btnSelectie.Text = "Maak Selectie";
             this.btnSelectie.UseVisualStyleBackColor = true;
+            this.btnSelectie.Click += new System.EventHandler(this.btnSelectie_Click);
             // 
             // Wedstrijdopstelling
             // 
